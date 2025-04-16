@@ -1,79 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Education Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Braeden Ross - Future Educator</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
+      padding: 2rem;
       background-color: #f4f4f4;
+      color: #333;
     }
-    header, footer {
-      background-color: #2a4365;
-      color: white;
-      padding: 20px;
-      text-align: center;
+    h1 {
+      color: #2c3e50;
     }
-    nav {
-      text-align: center;
-      background-color: #4a5568;
-      padding: 10px;
-    }
-    nav a {
-      color: white;
-      margin: 0 15px;
+    a {
+      display: block;
+      margin: 0.5rem 0;
+      color: #007acc;
       text-decoration: none;
     }
-    nav a:hover {
+    a:hover {
       text-decoration: underline;
     }
-    main {
-      padding: 20px;
-      max-width: 800px;
-      margin: auto;
-      background-color: white;
-    }
-    h1, h2 {
-      color: #2a4365;
+    .contact {
+      margin-top: 1rem;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Jane Doe</h1>
-    <p>Email: janedoe@email.com | Phone: (555) 123-4567</p>
-    <p>Future Educator | Passionate about Student Growth and Learning</p>
-  </header>
+  <h1>Braeden Ross</h1>
+  <p>Future Educator | Contact me at <a href="mailto:braedenross23@gmail.com">braedenross23@gmail.com</a></p>
 
-  <nav>
-    <a href="#about-me">About Me</a>
-    <a href="#about-site">About This Site</a>
-    <a href="#video">Video Project</a>
-  </nav>
-
-  <main>
-    <section id="about-me">
-      <h2>About Me</h2>
-      <p>Hello! My name is Jane Doe, and I am currently studying to become an educator. I have always been passionate about helping others learn and grow. I chose education because I believe in the power of teaching to transform lives. I want to be a positive influence in the lives of students, just as many teachers have been for me. My goal is to create an inclusive and engaging learning environment for every student.</p>
-    </section>
-
-    <section id="about-site">
-      <h2>About This Site</h2>
-      <p>This website was created to showcase my journey and development as an educator. It includes information about who I am, my goals, and projects I have worked on during my studies. I want visitors to understand my passion for education and my commitment to helping students succeed. This site will grow alongside my career and reflect the experiences and values I bring to the classroom. Thank you for visiting and learning more about my path in education.</p>
-    </section>
-
-    <section id="video">
-      <h2>Assignment B Video</h2>
-      <p>This video project highlights my philosophy of education and how I plan to support student learning. I used Canva to create and edit this video. Please watch below to learn more about my vision as a future teacher.</p>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/your-video-id-here" frameborder="0" allowfullscreen></iframe>
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2025 Jane Doe | Future Educator</p>
-  </footer>
+  <div class="contact">
+    <h2>Explore My Website:</h2>
+    <a href="about.html">About Me</a>
+    <a href="site-info.html">About This Site</a>
+    <a href="assignment-video.html">Assignment B Video</a>
+  </div>
 </body>
+</html>
+
 </html>
